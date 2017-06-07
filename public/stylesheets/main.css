@@ -1,7 +1,39 @@
+
 body {
     margin: 0.66%;
     background: #6190E8;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 0;
+    margin: 0;
+}
 
+#topdiv {
+    height: 50px;
+    width: 100%;
+    background: #cc00cc;
+}
+#homepagejumbo {
+    width: 100%;
+    text-align: center;
+    background: #ff4dff
+}
+#joinseparator {
+    margin: 2em auto;
+    width: 200px;
+}
+.third {
+    width: 30%;
+}
+.contentbox {
+    margin: 0% 3%;
+    padding: 4px;
+    border: 1px solid black;
+}
+
+/*When using centered class on a div you must set a width*/
+.centered{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
