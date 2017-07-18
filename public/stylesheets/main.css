@@ -17,11 +17,15 @@ body {
     height: 350px;
 }
 #joinseparator {
-    margin: 2em auto;
+    margin: 4em auto;
     width: 200px;
+    
 }
 .third {
     width: 30%;
+    font-size: 35px;
+    font-family: 'yesteryear', cursive;
+    color: black;
 }
 .contentbox {
     margin: 0% 3%;
@@ -55,11 +59,71 @@ body {
     font-family: 'Bangers', cursive;
     font-size: 85px;
     letter-spacing: 2px;
+    color: #738DE3;
+}
+
+.headerLogo {
+    text-align: right;
 }
 
 #discordImage {
     height: 150px;
     width: 150px;
+
     
 }
 
+.headerText {
+    text-align: left;
+}
+
+#aboutUs {
+    font-family: 'yesteryear', cursive;
+    color: #FAFAFE;
+    font-size: 35px;
+    padding-left: 10px;
+}
+
+#aboutUsBody {
+    font-family: lato;
+    color: #FAFAFE;
+    font-size: 1.5em;
+    padding: 5px 10px 5px 10px;
+}
+
+.centered img {
+    height: 50px;
+    width: 50px;
+}
+
+.centered p {
+    font-family: 'yesteryear', cursive;
+    color: grey;
+    font-size: 25px;
+}
+
+.projectDiv {
+    background-color: #647BC8;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-align: center;
+    width: 32%;
+    height: 350px;
+    
+
+}
+
+.project {
+    color: #FBFCFF;
+    font-size: 35px;
+    font-family: 'yesteryear', cursive;
+}
+
+#projectContainer {
+    width: 100%;
+}
+
+.row {
+    margin-right: 0px!important;
+    margin-left: 7px!important;
+}
