@@ -9,11 +9,14 @@ app.use(express.static(__dirname + "/public"))
 
 app.get('/', function(req, res){
     res.render("landing");
-})
+});
+app.get('/about', function(req, res){
+    res.render("about");
+});
 
 // IF YOU DONT SEE THE CONSOLE LOG BELOW, make sure to set your environment variable for port.
-//To do this, in your terminal (in the project root folder) type "export PORT=3000" then after
-//Starting the app server, go to localhost:3000 in your browser
-    app.listen(process.env.PORT, process.env.IP, function(req, res){
-        console.log("Server started");
-    })
+// To do this, in your terminal (in the project root folder) type "export PORT=3000" then after
+// Starting the app server, go to localhost:3000 in your browser
+app.listen(process.env.PORT, process.env.IP, function(req, res){
+    console.log("Server started");
+});
