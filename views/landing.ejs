@@ -6,18 +6,21 @@
     </div> 
     
     <div class="jumbotron" id="homepagejumbo">
+        <div class="container">
+        <div class="row">
         
-        <div class="col-md-4 headerLogo">  
-            <img src="https://cdn.worldvectorlogo.com/logos/discord.svg" id="discordImage">
+            <div class="col-md-4 col-sm-12 headerLogo">  
+                <img src="https://cdn.worldvectorlogo.com/logos/discord.svg" id="discordImage">
+            </div>
+            
+            <div class="col-md-8 col-sm-12 headerText">
+                <p id="pageName">The Web Developer's</p>
+                <p id="discordtLogo">DISCORD</p>
+            </div>
+            
         </div>
-        
-        <div class="col-md-8 headerText">
-            <p id="pageName">The Web Developer's</p>
-            <p id="discordtLogo">DISCORD</p>
-        </div>
-        
     </div>
-    
+    </div>
     <div class="contentbox">
         <h2 id="aboutUs">About Us</h2>
         <p id="aboutUsBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum risus dui, vel tempus ante tempor
@@ -37,25 +40,51 @@
     
     <div class="centered third"> Some of our works </div>
     
-    <div class="row" id="projectContainer">
+    <!--<div id="projectContainer">-->
         
-        <div class="col-md-4 projectDiv">
+        <div class="container" id="projectsContainer">
+        
+          <div class="row">
             
-            <h2 class=" project"> Project </h2>
+            <div class="col-md-4 projectDiv">
+                
+                <h2 class=" project"> Project </h2>
+                
+            </div>
+            
+            <div class="col-md-4 projectDiv">
+    
+                <h2 class="project"> Project </h2>            
+                
+            </div>
+            
+            <div class="col-md-4 projectDiv">
+                
+                <h2 class="project"> Project </h2>            
+                
+            </div>
+            
+          </div>
+         
+            <h2 id="additionalProjects"><a id="moreLink" href="/"> More... </a> </h2>
             
         </div>
+         
+  <!--  </div>-->
+    
+    <div id="bottomContainer">
         
-        <div class="col-md-4 projectDiv">
-
-            <h2 class="project"> Project </h2>            
-            
+        <div class="contentbox" id="bottomContentBox">
+           
+            <h2 id="bottomContenth2">Learning Web Development is <strong>hard</strong></h2>
+            <p id="bottomContentBody">
+                So we gathered a couple of resources we've found to help others
+                have an easier time getting into the field
+            </p>
+        
         </div>
         
-        <div class="col-md-4 projectDiv">
-            
-            <h2 class="project"> Project </h2>            
-            
-        </div>
+        <p id="resourcesLink"><a id="moreLink" href="/resources"> Check them out... </a></p>
         
         
     </div>
