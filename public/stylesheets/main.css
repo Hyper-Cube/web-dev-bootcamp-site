@@ -2,6 +2,7 @@
 body {
     background: #DBD5FC;
     width: 100%;
+
 }
 
 #topdiv {
@@ -13,7 +14,7 @@ body {
     width: 100%;
     text-align: center;
     background: #DAE3FF;
-    height: 350px;
+    margin-bottom: 100px;
 }
 #joinseparator {
     margin: 4em auto;
@@ -22,9 +23,10 @@ body {
 }
 .third {
     width: 30%;
-    font-size: 35px;
+    font-size: 4em;
     font-family: 'yesteryear', cursive;
     color: black;
+    margin-bottom: 20px;
 }
 .contentbox {
     margin: 0% 3%;
@@ -32,6 +34,7 @@ body {
     box-shadow: 2px 2px 1px 0px grey;
     background: #6B89DF;
     border-radius: 5px;
+    margin-bottom: 50px;
 }
 
 /*When using centered class on a div you must set a width*/
@@ -112,6 +115,28 @@ body {
 
 }
 
+#projectsContainer {
+    width: 100%;
+}
+
+@media (max-width: 1000px) {
+     .projectDiv{  
+          width: 100%;        
+          margin-top: 5px;
+     }
+     
+     .headerLogo{
+         text-align: center;
+     }
+     
+     .headerText{
+         text-align: center;
+     }
+
+}
+
+
+
 .project {
     color: #FBFCFF;
     font-size: 35px;
@@ -120,9 +145,59 @@ body {
 
 #projectContainer {
     width: 100%;
+    height: 600px;
 }
 
 .row {
     margin-right: 0px!important;
     margin-left: 7px!important;
+}
+
+
+#additionalProjects {
+        font-family: 'yesteryear', cursive;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 50px 0px 50px 0px;
+    color: grey;
+}
+
+#bottomContainer {
+    background: #DAE3FF;
+    padding-top: 50px;
+}
+
+#bottomContentBox {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+#bottomContentBody {
+    font-family: lato;
+    color: #FAFAFE;
+    font-size: 2em;
+    padding: 5px 10px 5px 10px;
+    
+}
+
+#bottomContenth2 {
+    font-family: 'yesteryear', cursive;
+    color: #FAFAFE;
+    font-size: 45px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+#resourcesLink {
+    font-family: 'yesteryear', cursive;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    color: grey;
+}
+
+#moreLink {
+    color: #9BA0B8;
 }
